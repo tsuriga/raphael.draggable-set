@@ -43,17 +43,17 @@ var box = canvas.rect(25, 25, 25, 25),
 
 ```
 
-See function documentation and demo code for arguments and more detailed examples.
+See function documentation and demo code for arguments and more versatile examples.
 
 
 ## DEMO ##
 
-Demo included and live version available on [the github pages page]().
+Demo included, live version available on [the github pages page]().
 
 
 ## CHANGELOG ##
 
-* (2015-11-10) v1.0.0 first version
+* v1.0.0 (2015-11-10): first version
 
 
 ## DEVELOPMENT IDEAS ##
