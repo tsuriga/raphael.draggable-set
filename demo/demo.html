@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Raphael.draggable-set demos</title>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+        <script src="../lib/raphael.draggable-set.js"></script>
+        <script src="demo.js"></script>
+        <style type="text/css">
+            svg { border: 1px solid black; }
+            p { max-width: 800px; }
+        </style>
+    </head>
+    <body>
+        <h3>Demo 1</h3>
+        <p>Unrestricted dragging with two sets. The Lorem set can only be dragged from a handle, the Fox set from any of its elements. No element reordering occurs when dragging</p>
+        <div id="demo1"></div>
+
+        <h3>Demo 2</h3>
+        <p>Element movement confined to host canvas. Active set is brought to top when dragging starts. Text elements have different alignments. Animations are attached to dragging indicator light elements.</p>
+        <div id="demo2"></div>
+
+        <h3>Demo 3</h3>
+        <p>Additional event handler functions added to set drag events. Here they keep track of where cursor was last seen dragging and how many times we've been on the static rectangle while dragging (collision detection). Notice how at least in version 2.1.2 of Raphaël collisions are detected from cursor position rather than element boundaries for <em>raphael.drag.over.&lt;id&gt;</em> events.</p>
+        <p>
+            <strong>Last cursor position when dragging:</strong> <span id="lastPos">(0, 0)</span><br />
+            <strong>Cursor-element collisions:</strong> <span id="collisionCounter">0</span>
+        </p>
+        <div id="demo3"></div>
+    </body>
+</html>

@@ -48,7 +48,7 @@ See function documentation and demo code for arguments and more versatile exampl
 
 ## DEMO ##
 
-Demo included, live version available on [the github pages page]().
+Demo included, live version available on [the github pages page](http://tsuriga.github.io/raphael.draggable-set/).
 
 
 ## CHANGELOG ##
